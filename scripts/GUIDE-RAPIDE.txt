@@ -1,0 +1,94 @@
+╔══════════════════════════════════════════════════════╗
+║           WINDOWS OPTIMIZER — GUIDE RAPIDE           ║
+╚══════════════════════════════════════════════════════╝
+
+LANCEMENT
+---------
+  Double-clic sur Lancer-Optimizer.bat (accepte l'admin)
+
+══════════════════════════════════════════════════════
+  SEQUENCE RECOMMANDEE — 99% DES CAS
+  PC existant, on veut le max en perf
+══════════════════════════════════════════════════════
+
+  OPTION A — 1 SEUL CLIC (tout automatique)
+    [16] FULL AUTO → tape "oui" → attendre 20-30 min → redemarrer
+    Rapport .txt genere sur le bureau avec les gains reels.
+
+  OPTION B — Etape par etape (controle total)
+  1.  [7]  Point de restauration  →  nomme "Avant Optimizer"
+  2.  [1]  Profil PERSO           →  laisse tourner (5-10 min)
+  3.  [11] IA Windows OFF         →  tape "oui"
+  4.  [9]  Bloatwares             →  [A] tout scanner, choisis
+  5.  [13] DNS Cloudflare         →  choix [1]
+  6.  [15] Windows Update         →  choix [1] Securite only
+  [16] FULL AUTO          Tout en 1 clic + rapport desktop
+  7.  [14] Update apps            →  [U] silencieux
+  8.  Redemarrer le PC
+
+══════════════════════════════════════════════════════
+  PC TOUT NEUF — INSTALL PROPRE
+══════════════════════════════════════════════════════
+
+  Pendant l'install Windows :
+    Shift+F10 → lancer OOBE-Bypass.bat depuis cle USB
+
+  Apres premier demarrage :
+  [12] Install propre → [B] Post-install auto (15-20 min)
+  [13] DNS Cloudflare → [1]
+  [14] Mes apps       → [I] installer ce dont j'ai besoin
+
+══════════════════════════════════════════════════════
+  USAGE QUOTIDIEN
+══════════════════════════════════════════════════════
+
+  Avant de jouer    →  [3] Gaming ON
+  Apres avoir joue  →  [4] Gaming OFF
+  Nettoyage rapide  →  [6]
+  MAJ apps          →  [14] → [U]
+
+══════════════════════════════════════════════════════
+  TOUTES LES OPTIONS
+══════════════════════════════════════════════════════
+
+  [1]  Profil PERSO       Optimisation maximale
+  [2]  Profil ENTREPRISE  Safe (garde Search/Print/Teams)
+  [3]  Gaming ON          Perf max pour jouer
+  [4]  Gaming OFF         Retour a la normale
+  [5]  Raccourcis bureau  GameBoost ON/OFF sur le bureau
+  [6]  Nettoyage disque
+  [7]  Creer restauration
+  [8]  Restaurer Windows
+  [9]  Bloatwares         Supprimer apps inutiles
+  [10] Langues            Nettoyer Office + Windows
+  [11] IA Windows         Copilot/Recall/Widgets OFF
+  [12] Install propre     OOBE bypass + post-install auto
+  [13] DNS                Cloudflare/AdGuard/Quad9/Google
+  [14] Apps WinGet        Update silencieux + install batch
+  [15] Windows Update     Securite only / desactiver / reset
+  [0]  Quitter
+
+══════════════════════════════════════════════════════
+  PROFIL SECURITE — QUAND L'UTILISER
+══════════════════════════════════════════════════════
+
+  [17] > [1] STANDARD    Toujours, sur toute machine.
+                         SMBv1, WDigest, LLMNR = failles actives.
+                         Zero impact usage quotidien.
+
+  [17] > [2] RENFORCE    PC perso serieux, teletravail, donnees sensibles.
+                         LSA + logs + RDP/WinRM off.
+                         Redemarrage requis.
+
+  [17] > [3] PARANOID    Dev/secu uniquement. Firewall outbound block.
+                         Peut bloquer certaines apps.
+                         Si reseau coupe -> [17] > [5] Reset Firewall.
+
+  [17] > [4] SCAN        Voir les connexions actives + ports en ecoute.
+
+══════════════════════════════════════════════════════
+  SI CA TOURNE MAL
+══════════════════════════════════════════════════════
+
+  [8]  Restaurer Windows → choisis ton point de restauration
+       Le PC redémarre et revient exactement comme avant.
