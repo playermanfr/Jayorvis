@@ -66,6 +66,10 @@ LANCEMENT
   [13] DNS                Cloudflare/AdGuard/Quad9/Google
   [14] Apps WinGet        Update silencieux + install batch
   [15] Windows Update     Securite only / desactiver / reset
+  [16] Full Auto          Tout en 1 clic + rapport desktop
+  [17] Securite           Profils Standard/Renforce/Paranoid
+  [18] Raccourci bureau   Cree icone BYoan sur le bureau
+  [19] Diagnostic         Analyse crashes/WHEA/disque/GPU
   [0]  Quitter
 
 ══════════════════════════════════════════════════════
